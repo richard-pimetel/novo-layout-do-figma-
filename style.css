@@ -38,9 +38,9 @@ header{
 }
 
 header h1 {
-    font-size: 2.7rem; 
-    padding-right: 1px;
-    font-weight: bold; 
+    font-size: 2.7rem; /* Aumenta o tamanho da fonte do texto "HomeCare" */
+    padding-right: 1px; /* Adiciona espaçamento à direita para dar mais largura */
+    font-weight: bold; /* Deixa o texto mais destacado */
 }
 header div{
     display: flex;
@@ -62,8 +62,12 @@ header button{
     color: aliceblue;
 }
 
+main{
+    height: 100%;
+    display: flex;
+}
 
-esquerda{
+.esquerda{
     width: 35%;
     align-items: flex-start;
     justify-content: center;
@@ -84,8 +88,8 @@ esquerda{
     font-size: 62px;
 }
 .cima p {
-    font-size: 24px; 
-    width: 80%; 
+    font-size: 24px; /* Aumente o valor conforme necessário */
+    width: 80%; /* Ajuste a largura se quiser que o texto ocupe mais espaço */
 }
 .cima div{
     display: flex;
@@ -105,7 +109,6 @@ esquerda{
     -ms-border-radius: 50px;
     -o-border-radius: 50px;
 }
-
 .dowApp{
     background-color: #2F6AAE;
     border: 1px solid #000000;
@@ -118,13 +121,39 @@ esquerda{
     color: #2F6AAE;
 }
 
+
 .baixo{
     height: 40%;
 }
 
-
 .cartela {
     width: 80%;
     height: 40%;
-    margin-top: -320px;
+    margin-top: -320px; /* Ajuste o valor conforme necessário */
+}
+
+
+.direita{
+    position: relative;
+    width: 50%;
+}
+
+.celular{
+    position: absolute;
+    height: 50%;
+    background-color: #4682b4;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 26%;
+    left: 60%;
+}
+
+.cartela img {
+    width: auto;
+    height: 100%; /* ou um valor maior, como 150% para aumentar ainda mais */
+}
+
+.celular img {
+    width: auto;
+    height: 100%; /* ou um valor maior, como 150% para aumentar ainda mais */
 }
