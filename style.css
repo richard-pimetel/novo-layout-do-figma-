@@ -61,3 +61,33 @@ header button{
     font-size: 1.1rem;
     color: aliceblue;
 }
+
+
+esquerda{
+    width: 35%;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    height: 100%;
+    padding:  25px;
+
+    
+}
+
+.cima{
+    height: 55%;
+    margin-top: -35px;
+}
+
+.cima h2{
+    font-size: 62px;
+}
+.cima p {
+    font-size: 24px; /* Aumente o valor conforme necessário */
+    width: 80%; /* Ajuste a largura se quiser que o texto ocupe mais espaço */
+}
+.cima div{
+    display: flex;
+    width: 70%;
+}
